@@ -20,8 +20,11 @@ public class SimpleServlet extends HttpServlet {
 		
 		PrintWriter out = response.getWriter();
 		out.println("<html>");
+		out.println("<head>");
+		out.println("<title>CI/CD Demo</title>");
+		out.println("</head>");
 		out.println("<body>");
-		out.println("<h1>" + "Test Run 20220823 1716" + "</h1>");
+		out.println("<h1>" + "Test Run 202208231716" + "</h1>");
 		out.println("</body>");
 		out.println("</html>");
 	}
