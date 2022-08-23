@@ -11,7 +11,7 @@ pipeline {
       steps {
         echo 'Building..'
         
-        sh 'mvn clean package'
+        sh 'mvn clean package -Dhttps.protocols=TLSv1.2'
       }
     }
     stage('Create Container Image') {
