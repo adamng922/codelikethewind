@@ -24,9 +24,9 @@ public class SimpleServlet extends HttpServlet {
 		out.println("<title>CI/CD Demo</title>");
 		out.println("</head>");
 		out.println("<body>");
-		//out.println("<h1>" + "Test Run 202208231716" + "</h1>");
-		out.println("<h1>" + "CICD Testing Done" + "</h1>");
-		out.println("<p>" + "Changes was triggered from GitHub" + "</p>");
+		out.println("<h1>" + "Test Run 202208231716" + "</h1>");
+		//out.println("<h1>" + "CICD Testing Done" + "</h1>");
+		//out.println("<p>" + "Changes was triggered from GitHub" + "</p>");
 		out.println("</body>");
 		out.println("</html>");
 	}
